@@ -2,7 +2,8 @@
   "name": "the-wadd",
   "private": true,
   "scripts": {
-    "test": "node tests/validate.cjs",
+    "test": "node tests/validate.cjs && node tests/history.cjs",
+    "import:history": "node tools/import-history.cjs",
     "serve": "node tools/serve.cjs"
   }
 }

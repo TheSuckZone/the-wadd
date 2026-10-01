@@ -11,23 +11,29 @@ npm run serve
 
 Open http://127.0.0.1:4173/the-wadd/ to test project-subdirectory hosting.
 
-## Publish to GitHub Pages
+## Live publication
 
-Install Git and GitHub CLI and sign in with `gh auth login`. Run these commands inside this folder. Replace YOUR_USERNAME with your GitHub username; `the-wadd` is the new repository name.
+The permanent repository is https://github.com/TheSuckZone/the-wadd and the public website is https://thesuckzone.github.io/the-wadd/. The statistics page is https://thesuckzone.github.io/the-wadd/stats/.
+
+Pages is configured to deploy through `.github/workflows/pages.yml` on every push to `main`. Reuse this repository and the configured `origin`. Do not initialize another weekly repository.
+
+After validation, commit and push the update, wait for the Pages run for that commit, then verify the live homepage, issue, archive, and statistics routes. Authenticated GitHub connector tree/commit/ref operations can publish when the local Git credential is unavailable; synchronize the local checkout afterward.
+
+## Historical statistics
+
+FUCKIN' STATS MATE extends the existing newspaper design with 31 source-driven sections, filterable scoring races, H2H rivalry files, searchable records, franchise profiles, the Time Machine, Tale of the Tape, and shareable receipts.
+
+`data/history/archive.json` currently contains ONLY verified 2026 YTD Weeks 1–3. Older scoring, matchup, and championship records are awaiting the user's verified import. Unsupported statistics show an explanation. No missing history is scraped or extrapolated.
+
+Read [the import contract](data/history/IMPORT.md) and use [the JSON Schema](data/history/schema.json) to package historical records. Dry-run import:
 
 ```powershell
-git init -b main
-git add .
-git commit -m "Build THE WADD Issue 001"
-gh repo create YOUR_USERNAME/the-wadd --public --source=. --remote=origin
-git push -u origin main
-gh api --method POST repos/YOUR_USERNAME/the-wadd/pages -f build_type=workflow
-gh workflow run pages.yml
-gh run list --workflow pages.yml
+npm run import:history -- verified-history.json
+npm run import:history -- verified-history.json --apply
+npm test
 ```
 
-If Pages is already enabled, update it using `gh api --method PUT repos/YOUR_USERNAME/the-wadd/pages -f build_type=workflow`. Alternatively select Settings → Pages → Source → GitHub Actions. View https://YOUR_USERNAME.github.io/the-wadd/ after the deployment succeeds. Issue 001 is at https://YOUR_USERNAME.github.io/the-wadd/issues/001/ and the archive at https://YOUR_USERNAME.github.io/the-wadd/archive/. No remote was created or published by this build.
-
+Raw source data, normalization/calculations, and presentation are separate. Aggregations are cached per date range and game scope. The import command rejects conflicting evidence and preserves old issues. Both original validation and the history test suite run in Pages CI.
 ## Future issues
 
 All future issues must deploy to the SAME repository and public website. Once configured, reuse `origin`; never create another repository for a weekly edition. Commit, push, wait for Pages, and verify the live homepage, permanent issue route, and archive after every update. `AGENTS.md` records this requirement for future work.
@@ -50,4 +56,5 @@ Add sourced claims to `receipts` using `data/receipt-template.json`; future issu
 ## Files
 
 `index.html`, `404.html`, `.nojekyll`, `.gitignore`, `package.json`, `README.md`, `.github/workflows/pages.yml`, `archive/index.html`, `issues/001/index.html`, `issues/001/data.json`, `data/issues.json`, `data/draft-template.json`, `data/receipt-template.json`, `assets/app.js`, `assets/style.css`, `assets/favicon.svg`, `tests/validate.cjs`, `tools/serve.cjs`.
+
 

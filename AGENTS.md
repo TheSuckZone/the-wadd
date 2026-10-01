@@ -13,3 +13,7 @@ For each new issue:
 7. Return the verified public URL. If authentication, permissions, or GitHub security confirmation blocks deployment, explain the exact required user action.
 
 Initial GitHub creation and Pages configuration are authorized by the user. The website is intended to be public. The connected GitHub app and browser are signed in as TheSuckZone. If local Git lacks credentials, use authenticated GitHub connector commit/tree/ref operations for publication and synchronize the local checkout afterward. Never export browser cookies or authentication secrets.
+
+## Historical statistics
+
+The user is assembling the verified 2016–2025 historical dataset separately. Do not scrape, invent, or extrapolate missing history. Preserve Issue #001 HTML and JSON unchanged. Use `data/history/IMPORT.md` and `schema.json` for verified imports. The production archive currently has only 2026 YTD Weeks 1–3; test-only historical fixtures are not league data. Unsupported sections must explain why they are unavailable. Every statistic uses `history-engine.js` and its shared normalized archive; never hardcode discovered records in HTML. Keep the newspaper design and the main navigation label `FUCKIN' STATS MATE`. Deploy updates to `/stats/` on this same website and verify the current homepage, permanent issue, and archive still work.

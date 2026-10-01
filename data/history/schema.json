@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thesuckzone.github.io/the-wadd/data/history/schema.json",
+  "title": "THE WADD verified history bundle",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sources",
+    "franchises",
+    "seasons",
+    "weekly_scores",
+    "matchups",
+    "championships"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "franchises": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "currentName",
+          "aliases"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "currentName": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "seasons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "year",
+          "status",
+          "participants"
+        ],
+        "properties": {
+          "year": {
+            "type": "integer"
+          },
+          "status": {
+            "enum": [
+              "complete",
+              "partial",
+              "ytd"
+            ]
+          },
+          "participants": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "standings": {
+            "type": "array"
+          },
+          "championshipsVerified": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "weekly_scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "season",
+          "week",
+          "source",
+          "franchise",
+          "historicalName",
+          "score"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "season": {
+            "type": "integer",
+            "minimum": 2016
+          },
+          "week": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "franchise": {
+            "type": "string"
+          },
+          "historicalName": {
+            "type": "string"
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0
+          },
+          "gameType": {
+            "enum": [
+              "regular",
+              "semifinal",
+              "championship",
+              "third_place",
+              "consolation",
+              "unknown"
+            ]
+          }
+        }
+      }
+    },
+    "matchups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "season",
+          "week",
+          "source",
+          "teamA",
+          "teamB",
+          "teamAName",
+          "teamBName",
+          "teamAScore",
+          "teamBScore",
+          "gameType"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "season": {
+            "type": "integer",
+            "minimum": 2016
+          },
+          "week": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          },
+          "teamA": {
+            "type": "string"
+          },
+          "teamB": {
+            "type": "string"
+          },
+          "teamAName": {
+            "type": "string"
+          },
+          "teamBName": {
+            "type": "string"
+          },
+          "teamAScore": {
+            "type": "number",
+            "minimum": 0
+          },
+          "teamBScore": {
+            "type": "number",
+            "minimum": 0
+          },
+          "gameType": {
+            "enum": [
+              "regular",
+              "semifinal",
+              "championship",
+              "third_place",
+              "consolation"
+            ]
+          },
+          "inferredFromScores": {
+            "const": false
+          }
+        }
+      }
+    },
+    "championships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "season",
+          "champion",
+          "runnerUp",
+          "source"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "season": {
+            "type": "integer"
+          },
+          "champion": {
+            "type": "string"
+          },
+          "runnerUp": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "matchupId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
