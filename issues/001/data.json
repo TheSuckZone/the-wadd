@@ -1,0 +1,360 @@
+{
+  "issue": "001",
+  "date": "October 2026",
+  "through_week": 3,
+  "teams": [
+    {
+      "id": "0",
+      "name": "Team Name",
+      "short": "Team Name",
+      "wins": 3,
+      "losses": 0,
+      "pf": 733.66,
+      "average_pf": 244.55,
+      "pa": 639.35,
+      "average_pa": 213.12,
+      "rank": 1,
+      "positions": {
+        "QB": 79.95,
+        "RB": 138.5,
+        "WR": 148.5,
+        "RB/WR": 60.0,
+        "TE": 30.4,
+        "SUPERFLEX": 32.26,
+        "K": 23.0,
+        "D/ST": 163.4,
+        "IDP": 57.65
+      },
+      "optimum": 842.97,
+      "source_efficiency": 87.03,
+      "commentary": "The only asshole who understood the assignment. Still couldn\u2019t name a team."
+    },
+    {
+      "id": "1",
+      "name": "Big Ball Jam",
+      "short": "Big Ball Jam",
+      "wins": 2,
+      "losses": 1,
+      "pf": 681.68,
+      "average_pf": 227.23,
+      "pa": 645.19,
+      "average_pa": 215.06,
+      "rank": 2,
+      "positions": {
+        "QB": 154.78,
+        "RB": 66.2,
+        "WR": 134.3,
+        "RB/WR": 40.1,
+        "TE": 14.1,
+        "SUPERFLEX": 83.85,
+        "K": 18.0,
+        "D/ST": 105.85,
+        "IDP": 64.5
+      },
+      "optimum": 793.88,
+      "source_efficiency": 85.87,
+      "commentary": "Two wins. One enormous ball-related branding problem."
+    },
+    {
+      "id": "2",
+      "name": "The indeterminately sexually curious Georges",
+      "short": "The Georges",
+      "wins": 2,
+      "losses": 1,
+      "pf": 674.77,
+      "average_pf": 224.92,
+      "pa": 616.0,
+      "average_pa": 205.33,
+      "rank": 3,
+      "positions": {
+        "QB": 76.49,
+        "RB": 103.3,
+        "WR": 101.7,
+        "RB/WR": 39.1,
+        "TE": 4.9,
+        "SUPERFLEX": 68.33,
+        "K": 34.0,
+        "D/ST": 172.95,
+        "IDP": 74.0
+      },
+      "optimum": 803.04,
+      "source_efficiency": 84.03,
+      "commentary": "A team name longer than its list of losses."
+    },
+    {
+      "id": "3",
+      "name": "NotoriousFresh",
+      "short": "NotoriousFresh",
+      "wins": 2,
+      "losses": 1,
+      "pf": 649.78,
+      "average_pf": 216.59,
+      "pa": 633.93,
+      "average_pa": 211.31,
+      "rank": 4,
+      "positions": {
+        "QB": 130.98,
+        "RB": 78.1,
+        "WR": 81.9,
+        "RB/WR": 35.6,
+        "TE": 28.1,
+        "SUPERFLEX": 77.25,
+        "K": 21.0,
+        "D/ST": 162.55,
+        "IDP": 34.3
+      },
+      "optimum": 719.51,
+      "source_efficiency": 90.31,
+      "commentary": "Winning record. Defense doing the unpaid overtime."
+    },
+    {
+      "id": "4",
+      "name": "22 Train",
+      "short": "22 Train",
+      "wins": 2,
+      "losses": 1,
+      "pf": 646.87,
+      "average_pf": 215.62,
+      "pa": 640.38,
+      "average_pa": 213.46,
+      "rank": 5,
+      "positions": {
+        "QB": 65.28,
+        "RB": 131.4,
+        "WR": 66.0,
+        "RB/WR": 80.7,
+        "TE": 46.1,
+        "SUPERFLEX": 25.99,
+        "K": 26.0,
+        "D/ST": 164.8,
+        "IDP": 40.6
+      },
+      "optimum": 742.82,
+      "source_efficiency": 87.08,
+      "commentary": "All aboard the aggressively average express."
+    },
+    {
+      "id": "5",
+      "name": "CunningCarla",
+      "short": "CunningCarla",
+      "wins": 1,
+      "losses": 2,
+      "pf": 671.66,
+      "average_pf": 223.89,
+      "pa": 637.64,
+      "average_pa": 212.55,
+      "rank": 6,
+      "positions": {
+        "QB": 100.9,
+        "RB": 70.9,
+        "WR": 193.96,
+        "RB/WR": 30.2,
+        "TE": 22.9,
+        "SUPERFLEX": 61.1,
+        "K": 21.5,
+        "D/ST": 116.7,
+        "IDP": 53.5
+      },
+      "optimum": 825.33,
+      "source_efficiency": 81.38,
+      "commentary": "Scoring like a contender. Collecting losses like a moron."
+    },
+    {
+      "id": "6",
+      "name": "OldTimer56's Team",
+      "short": "OldTimer56",
+      "wins": 0,
+      "losses": 3,
+      "pf": 631.91,
+      "average_pf": 210.64,
+      "pa": 732.77,
+      "average_pa": 244.26,
+      "rank": 7,
+      "positions": {
+        "QB": 130.81,
+        "RB": 81.5,
+        "WR": 117.9,
+        "RB/WR": 27.0,
+        "TE": 23.3,
+        "SUPERFLEX": 39.3,
+        "K": 25.0,
+        "D/ST": 140.6,
+        "IDP": 46.5
+      },
+      "optimum": 827.35,
+      "source_efficiency": 76.38,
+      "commentary": "The future looks bright. Mostly because the present is on fire."
+    },
+    {
+      "id": "7",
+      "name": "LogJammin'",
+      "short": "LogJammin'",
+      "wins": 0,
+      "losses": 3,
+      "pf": 592.18,
+      "average_pf": 197.39,
+      "pa": 737.25,
+      "average_pa": 245.75,
+      "rank": 8,
+      "positions": {
+        "QB": 108.93,
+        "RB": 70.7,
+        "WR": 96.6,
+        "RB/WR": 21.6,
+        "TE": 43.1,
+        "SUPERFLEX": 36.65,
+        "K": 22.5,
+        "D/ST": 155.6,
+        "IDP": 36.5
+      },
+      "optimum": 685.34,
+      "source_efficiency": 86.41,
+      "commentary": "Management has blocked our number."
+    }
+  ],
+  "games": [
+    {
+      "week": 1,
+      "a": "4",
+      "a_score": 248.31,
+      "b": "7",
+      "b_score": 201.91
+    },
+    {
+      "week": 1,
+      "a": "3",
+      "a_score": 208.76,
+      "b": "6",
+      "b_score": 207.41
+    },
+    {
+      "week": 1,
+      "a": "0",
+      "a_score": 245.28,
+      "b": "5",
+      "b_score": 240.15
+    },
+    {
+      "week": 1,
+      "a": "2",
+      "a_score": 216.94,
+      "b": "1",
+      "b_score": 203.33
+    },
+    {
+      "week": 2,
+      "a": "5",
+      "a_score": 233.63,
+      "b": "7",
+      "b_score": 184.41
+    },
+    {
+      "week": 2,
+      "a": "3",
+      "a_score": 240.59,
+      "b": "4",
+      "b_score": 190.61
+    },
+    {
+      "week": 2,
+      "a": "0",
+      "a_score": 206.81,
+      "b": "2",
+      "b_score": 202.52
+    },
+    {
+      "week": 2,
+      "a": "1",
+      "a_score": 242.44,
+      "b": "6",
+      "b_score": 227.82
+    },
+    {
+      "week": 3,
+      "a": "2",
+      "a_score": 255.31,
+      "b": "7",
+      "b_score": 205.86
+    },
+    {
+      "week": 3,
+      "a": "4",
+      "a_score": 207.95,
+      "b": "5",
+      "b_score": 197.88
+    },
+    {
+      "week": 3,
+      "a": "0",
+      "a_score": 281.57,
+      "b": "6",
+      "b_score": 196.68
+    },
+    {
+      "week": 3,
+      "a": "1",
+      "a_score": 235.91,
+      "b": "3",
+      "b_score": 200.43
+    }
+  ],
+  "projections": [
+    {
+      "a": "7",
+      "b": "0",
+      "a_score": 153.43,
+      "b_score": 185.68
+    },
+    {
+      "a": "5",
+      "b": "6",
+      "a_score": 172.94,
+      "b_score": 154.98
+    },
+    {
+      "a": "2",
+      "b": "3",
+      "a_score": 178.61,
+      "b_score": 190
+    },
+    {
+      "a": "1",
+      "b": "4",
+      "a_score": 185.83,
+      "b_score": 221.56
+    }
+  ],
+  "trades": [
+    {
+      "sender": "6",
+      "receiver": null,
+      "player": "Josh Allen",
+      "picks": [
+        {
+          "year": 2027,
+          "round": 1
+        },
+        {
+          "year": 2027,
+          "round": 2
+        },
+        {
+          "year": 2028,
+          "round": 1
+        },
+        {
+          "year": 2028,
+          "round": 2
+        }
+      ]
+    }
+  ],
+  "draft": {
+    "status": "awaiting_source",
+    "team_count": 8,
+    "expected_rounds": 26,
+    "picks": [],
+    "uncertain": []
+  },
+  "receipts": []
+}
