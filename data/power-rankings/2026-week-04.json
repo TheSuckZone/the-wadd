@@ -1,0 +1,163 @@
+{
+  "id": "2026-week-04",
+  "season": 2026,
+  "week": 4,
+  "throughWeek": 3,
+  "publishedDate": "2026-10-01",
+  "publicationNote": "Website publication date; supplied article had no publication date.",
+  "subheadline": "Three weeks down. We know nothing. But we're going to judge everybody anyway.",
+  "source": "User-supplied Week 4 article and RULZ, 2026-10-01",
+  "teams": [
+    {
+      "rank": 1,
+      "previousRank": null,
+      "teamId": "team-name",
+      "team": "Team Name",
+      "editorialHeadline": "THE ONLY UNDEFEATED TEAM, AND NOW THEY'RE GETTING PISSED OFF",
+      "editorialText": "There really isn't an argument for anybody else at No. 1 right now.\n\nTeam Name hasn't merely stumbled into 3-0. They're the highest-scoring team in the league, and Week 3 was an absolute statement: 281.57, the highest score anybody has put up this season.\n\nThe progression is nasty:\n\n245.28 → 206.81 → 281.57\n\nAnd that Week 3 explosion wasn't against some theoretical opponent—they dropped 281.57 on Old Timer, winning by 84.89 points.\n\nThrough three weeks, Team Name has already beaten CunningCarla, Georges and Old Timer.\n\nThere's also some historical comedy here. This franchise—Iron Fist / SpoonFed / Robert Paulson / Team Name—has zero championships despite 120 historical wins.\n\nAt some point, \"good franchise that hasn't won the whole fucking thing\" becomes a storyline.",
+      "verdict": "They're not chasing anybody right now.\n\nEverybody else is chasing them.",
+      "suppliedStats": {
+        "record": "3-0",
+        "points": "733.66",
+        "ppg": "244.55",
+        "weeklyScore": "281.57"
+      }
+    },
+    {
+      "rank": 2,
+      "previousRank": null,
+      "teamId": "big-ball-jam",
+      "team": "Big Ball Jam",
+      "editorialHeadline": "THE CHAMP IS STILL THE CHAMP UNTIL SOMEBODY TAKES THE FUCKING THING",
+      "editorialText": "Big Ball Jam opened the season with a 216.94–203.33 loss to Georges.\n\nSince then?\n\n242.44.\n235.91.\nTwo wins.\n\nAnd Week 3 brought a pretty convincing 235.91–200.43 handling of NotoriousFresh.\n\nMore importantly, we're talking about the league's historical heavyweight.\n\nThe franchise formerly known as Queen of the Mahomes Age / QotMA / BSUAJ / MtFbWY has four championships—the most among the current eight franchises.\n\nAnd they're coming directly off the 2025 championship run: Big Ball Jam beat Team Name in the semifinal and NotoriousFresh 226.78–199.58 in the title game.",
+      "verdict": "Week 1 looks increasingly like somebody poked the bear.\n\nBad idea.",
+      "suppliedStats": {
+        "record": "2-1",
+        "points": "681.68",
+        "ppg": "227.23",
+        "weeklyScore": "235.91"
+      }
+    },
+    {
+      "rank": 3,
+      "previousRank": null,
+      "teamId": "georges",
+      "team": "Georges",
+      "editorialHeadline": "WAIT... ARE THE GEORGES ACTUALLY FUCKING GOOD?",
+      "editorialText": "Here's your first genuine 2026 storyline.\n\nGeorges opened by beating Big Ball Jam, 216.94–203.33.\n\nThen they lost a very respectable 206.81–202.52 game to undefeated Team Name.\n\nThen they walked into Week 3 and dropped 255.31 on LogJammin'.\n\nThat's a hell of a three-game résumé.\n\nAnd this is where the history makes it funnier.\n\nThe updated historical ledger has Georges at just 42-61 (.408) overall, with zero championships.\n\nSo we're not watching the old league bully doing what he always does.\n\nWe're watching the guy who has historically gotten kicked in the dick suddenly walking around holding a baseball bat.",
+      "verdict": "I'm buying it.\n\nAnd Big Ball Jam already has the receipt.",
+      "suppliedStats": {
+        "record": "2-1",
+        "points": "674.77",
+        "ppg": "224.92",
+        "weeklyScore": "255.31"
+      }
+    },
+    {
+      "rank": 4,
+      "previousRank": null,
+      "teamId": "notoriousfresh",
+      "team": "NotoriousFresh",
+      "editorialHeadline": "GOOD TEAM. BAD WEEK. CALM THE FUCK DOWN.",
+      "editorialText": "Notorious started 2-0 by beating Old Timer 208.76–207.41—by a hilariously tiny 1.35 points—and then hammering 22 Train 240.59–190.61.\n\nThen Big Ball Jam showed up.\n\n235.91–200.43.\n\nThat's not catastrophic. It's just a loss to the defending champion.\n\nAnd don't forget where Notorious was three games ago: playing Big Ball Jam in the 2025 championship game.\n\nThis isn't a 2-1 fraud.\n\nIt's a legitimate contender that ran into another legitimate contender.",
+      "verdict": "Nobody needs to hit the panic button.\n\nBut maybe don't schedule Big Ball Jam again anytime soon.",
+      "suppliedStats": {
+        "record": "2-1",
+        "points": "649.78",
+        "ppg": "216.59",
+        "weeklyScore": "200.43"
+      }
+    },
+    {
+      "rank": 5,
+      "previousRank": null,
+      "teamId": "cunningcarla",
+      "team": "CunningCarla",
+      "editorialHeadline": "THE MOST DANGEROUS 1-2 TEAM IN THE LEAGUE",
+      "editorialText": "Here's why these are power rankings and not standings.\n\nCunningCarla is 1-2.\n\nShe has scored 671.66 points through three weeks and is averaging 223.89.\n\nHer two losses:\n\n245.28–240.15 to undefeated Team Name.\n\nThat's 5.13 points.\n\nThen:\n\n207.95–197.88 to 22 Train.\n\nThat's 10.07.\n\nHer one win?\n\n233.63–184.41, a 49.22-point beating of LogJammin'.\n\nSo her three-week story is essentially:\n\nclose loss, murder, close loss.",
+      "verdict": "The standings say 1-2.\n\nThe numbers say do not fucking sleep on this team.\n\nThis is exactly the kind of team the power rankings are meant to expose.",
+      "suppliedStats": {
+        "record": "1-2",
+        "points": "671.66",
+        "ppg": "223.89",
+        "weeklyScore": "197.88"
+      }
+    },
+    {
+      "rank": 6,
+      "previousRank": null,
+      "teamId": "22-train",
+      "team": "22 Train",
+      "editorialHeadline": "WE HAVE ABSOLUTELY NO IDEA WHAT THIS TEAM IS",
+      "editorialText": "Behold:\n\nWeek 1: 248.31 — excellent.\n\nWeek 2: 190.61 — what the fuck.\n\nWeek 3: 207.95 — good enough.\n\nThat's resulted in a perfectly respectable 2-1 record, with wins over LogJammin' and CunningCarla and a 49.98-point ass beating at the hands of NotoriousFresh.\n\nBut there's an important reason I'm not burying 22 Train.\n\nLast season this offense scored 3,407.57 points, averaging 227.17, the highest 2025 total in our master scoring table.\n\nSo the ceiling isn't theoretical.\n\nWe've seen it.",
+      "verdict": "Could be 4th next week.\n\nCould be 8th.\n\nCould score 290.\n\nCould score 174.\n\nWelcome aboard the fucking train.",
+      "suppliedStats": {
+        "record": "2-1",
+        "points": "646.87",
+        "ppg": "215.62",
+        "weeklyScore": "207.95"
+      }
+    },
+    {
+      "rank": 7,
+      "previousRank": null,
+      "teamId": "old-timer",
+      "team": "Old Timer",
+      "editorialHeadline": "THE RECORD IS UGLIER THAN THE TEAM. THE LAST GAME WAS UGLIER THAN BOTH.",
+      "editorialText": "This is a strange 0-3.\n\nWeek 1:\n\n208.76–207.41\n\nLost by 1.35.\n\nWeek 2:\n\n242.44–227.82\n\nLost by 14.62.\n\nThat's an 0-2 team that could reasonably say, \"eh, shit happens.\"\n\nAnd then Week 3 happened.\n\nTeam Name 281.57\nOld Timer 196.68\n\nAn 84.89-point industrial accident.\n\nStill, history earns Old Timer a little benefit of the doubt.\n\nThe master ledger has 84 career wins and three championships.",
+      "verdict": "0-3 looks terrible.\n\nBut this isn't the worst team in the league.\n\nYet.",
+      "suppliedStats": {
+        "record": "0-3",
+        "points": "631.91",
+        "ppg": "210.64",
+        "weeklyScore": "196.68"
+      }
+    },
+    {
+      "rank": 8,
+      "previousRank": null,
+      "teamId": "logjammin",
+      "team": "LogJammin'",
+      "editorialHeadline": "SOMEBODY CHECK FOR A PULSE",
+      "editorialText": "There are unlucky 0-3 teams.\n\nAnd then there's this.\n\nWeek 1: lost by 46.40\nWeek 2: lost by 49.22\nWeek 3: lost by 49.45\n\nThat is fucking remarkable.\n\nNot because LogJammin' is getting blown out.\n\nBecause they're getting blown out by almost exactly the same amount every goddamn week.\n\nTotal margin through three games:\n\n-145.07\n\nAverage defeat:\n\n48.36 points.\n\nScores:\n\n201.91 → 184.41 → 205.86\n\nMeanwhile, LogJammin' has historically been one of the league's strongest franchises: 118 wins, a .546 winning percentage, two championships and nine playoff berths.\n\nWhich makes this start even weirder.",
+      "verdict": "Three games.\n\nThree ass kickings.\n\nSame ass kicking wearing three different hats.\n\nWAKE THE FUCK UP, LOGJAMMIN'.",
+      "suppliedStats": {
+        "record": "0-3",
+        "points": "592.18",
+        "ppg": "197.39",
+        "weeklyScore": "205.86"
+      }
+    }
+  ],
+  "awards": [
+    {
+      "title": "KING OF THE WEEK",
+      "teamId": "team-name"
+    },
+    {
+      "title": "STATEMENT GAME",
+      "teamId": "georges"
+    },
+    {
+      "title": "BAD BEAT BASTARD",
+      "teamId": "cunningcarla"
+    },
+    {
+      "title": "DEFENDING THE CROWN",
+      "teamId": "big-ball-jam"
+    },
+    {
+      "title": "GET THE FUCKING DEFIBRILLATOR",
+      "teamId": "logjammin"
+    },
+    {
+      "title": "MOST CONFUSING",
+      "teamId": "22-train"
+    },
+    {
+      "title": "EARLY-SEASON \"OH SHIT\" TEAM",
+      "teamId": "georges"
+    }
+  ],
+  "statOfWeek": "48.36\n\nThat is LogJammin's average margin of defeat.\n\nTheir three losing margins:\n\n46.40\n49.22\n49.45\n\nAt least they're consistent."
+}

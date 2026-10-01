@@ -17,3 +17,11 @@ Initial GitHub creation and Pages configuration are authorized by the user. The 
 ## Historical statistics
 
 The user is assembling the verified 2016–2025 historical dataset separately. Do not scrape, invent, or extrapolate missing history. Preserve Issue #001 HTML and JSON unchanged. Use `data/history/IMPORT.md` and `schema.json` for verified imports. The production archive currently has only 2026 YTD Weeks 1–3; test-only historical fixtures are not league data. Unsupported sections must explain why they are unavailable. Every statistic uses `history-engine.js` and its shared normalized archive; never hardcode discovered records in HTML. Keep the newspaper design and the main navigation label `FUCKIN' STATS MATE`. Deploy updates to `/stats/` on this same website and verify the current homepage, permanent issue, and archive still work.
+
+## Dedicated newspaper sections
+
+Keep the homepage as the newspaper. POWER RANKINGS (`/power-rankings/`), FUCKIN' STATS MATE (`/stats/`) and RULZ (`/rulz/`) are separate destinations. Never insert their full interfaces into the homepage.
+
+Power Ranking editions are immutable source records in `data/power-rankings/SEASON-week-WW.json`, indexed newest first in `index.json`, with permanent routes `/power-rankings/SEASON/week-WW/`. Preserve supplied commentary verbatim. Current statistics derive from the normalized league archive and are restricted to the edition's throughWeek. Future editions supply previousRank from the preceding editorial edition, never from official standings. The initial edition has no previous ranking and shows NEW. Scoring trend means week-to-week score change, not editorial rank movement. Historical claims in the supplied article remain article evidence and are not an invented scoring-history import.
+
+The 2026 Week 4 source was supplied on 2026-10-01. Its publishedDate records website publication, since no earlier article date was given. Rules live in `data/rules.json`; active and proposed rules must remain unmistakably separate. Do not infer extra rules or approval of the proposal. Run the sections source-fidelity tests along with existing tests.

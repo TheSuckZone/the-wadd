@@ -58,3 +58,11 @@ Add sourced claims to `receipts` using `data/receipt-template.json`; future issu
 `index.html`, `404.html`, `.nojekyll`, `.gitignore`, `package.json`, `README.md`, `.github/workflows/pages.yml`, `archive/index.html`, `issues/001/index.html`, `issues/001/data.json`, `data/issues.json`, `data/draft-template.json`, `data/receipt-template.json`, `assets/app.js`, `assets/style.css`, `assets/favicon.svg`, `tests/validate.cjs`, `tools/serve.cjs`.
 
 
+
+### Power Rankings and RULZ
+
+- `/power-rankings/`: current editorial edition and edition selector.
+- `/power-rankings/2026/week-04/`: permanent first edition.
+- `/rulz/`: five supplied active rules and the separate team-name-freeze proposal.
+
+To publish a new ranking, add a new edition JSON and permanent route, then prepend its metadata to `data/power-rankings/index.json`. Keep prior files unchanged. Copy supplied commentary verbatim, reference canonical team IDs, set throughWeek and previousRank from the prior editorial ranking. Calculations in `assets/sections.js` use the history engine; a new edition must have verified weekly scores and matchups. No retroactive editions are invented. `npm test` includes source fidelity, current-stat reconciliation and rule-status checks.
