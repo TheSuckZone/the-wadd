@@ -1,0 +1,19 @@
+{
+  "CODEX_IMPORT_INSTRUCTIONS.txt": "a817fc022f4b472619f5883061609e9d444e4864ad119538b2b579c5cfa6de28",
+  "README.md": "629e9227a1008abbc417b0f5df6469fb91579dd63a70a44fb80fc5220774267c",
+  "all-time-ledger.json": "abd60bb64400214357f05f1f0fe81137e0d2a01f7e4e25b2ac1e26fef981ceb2",
+  "championships.json": "9842929f64128881e0b91e8f10f2eb034ea22e32bec7321579b740160b792b8d",
+  "corrections.json": "58e66d6d55dc7ba9b69942398e73cc9b8f70bc81111b00a916e7b150e6e0700d",
+  "database.json": "c122f252994553d923cb566d97f976e716cb27f6cd46aa017db954e03e8ba808",
+  "definitions.json": "bc2ae50cc403778bcb8cf54b2c7ef5e2ae0c9a9f7e06b09c81f7cdb41c402770",
+  "franchises.json": "d6c650bf81320954143d8e6b2f74dde09ef670bc668ad2f91204e50a14aa041e",
+  "manifest.json": "a022b4d40293442596b844e5626e3402a846f76b033c332f7cb35e24ad6d1018",
+  "matchups.json": "edf3e4622407c4d1c9543817a4919f82ef2869d7e90f8b3b63494b4326432fd2",
+  "provenance.json": "3206e9ed6398a9884a79a3ba35e46309e55a21c2f27992b46ad4b41acac12a90",
+  "season-honors.json": "a0281ab3fdebaa17892d805740c2ac8936b7d8e434112bd60e3d35b496b367e7",
+  "season-summaries.json": "0f6f0f2b7fe7eba0251098a3dd634d3ae5c5dbcbd37cafe9258064ff8be8e414",
+  "source-evidence.json": "7cb9fd52c384b916b9a395bb57ba1dd5c6ef32c5fd6dbc88e8d1af215524c529",
+  "unresolved.json": "eceb7a88f47e3c9a486bb5290afdd14213edad97c1448ffdb360edece7fdfc24",
+  "validation-report.json": "470b7f95a20cc57e6e877add741a6524bdd10231a11f2af276ad6d0c66ee28e7",
+  "weekly-scores.json": "5c00e6e84f86bde4d88f114b737adfdb906bc5ba78e8acf5d13a04ba89571868"
+}

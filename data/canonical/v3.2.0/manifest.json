@@ -1,0 +1,21 @@
+{
+  "databaseName": "JWPL Canonical Historical Database",
+  "version": "3.2.0",
+  "created": "2026-10-01",
+  "status": "canonical master candidate",
+  "supersedes": "JWPL_CANONICAL_DATABASE_v3_1.zip",
+  "coverage": {
+    "weeklyScoring": "2016-2025 complete regular-season scoring; 2026 YTD through Week 3",
+    "detailedMatchups": "2021-2025 regular season complete; 2026 YTD through Week 3; verified postseason retained",
+    "championships": "2011-2025 confirmed where supplied; 2010 unresolved",
+    "seasonHonors": "2021-2025 verified core honors; selected legacy honors with explicit unknowns"
+  },
+  "rules": [
+    "Do not silently overwrite conflicting evidence.",
+    "Preserve canonical franchise IDs and historical display names.",
+    "2026 is YTD.",
+    "Postseason is separate from regular-season records.",
+    "MtFbWY / May the Forsett Be with You is not Big Ball Jam.",
+    "Unknown legacy honors remain null/unresolved."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "databaseVersion": "3.2.0",
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    "2021-2026 regular-season matchups reconcile to games/W-L/PF/PA season summaries.",
+    "No duplicate matchup games.",
+    "2024 postseason is now explicitly treated as complete from supplied screenshots.",
+    "Unknown legacy honors remain unresolved rather than inferred."
+  ],
+  "coverage": {
+    "weeklyScoreRecords": 1168,
+    "matchupRecords": 335,
+    "seasonSummaryRecords": 48,
+    "championshipRecords": 15,
+    "seasonHonorRecords": 17,
+    "franchiseRecords": 16
+  },
+  "importantNotes": [
+    "v3.1 corrects 2020 championship: LogJammin' champion, CunningCarla runner-up.",
+    "v3.2 corrects 2020 regular-season champion to LogJammin'; points leader remains unknown."
+  ]
+}

@@ -1,0 +1,157 @@
+[
+  {
+    "id": "22-train",
+    "currentName": "22 Train",
+    "aliases": [
+      "22 Train",
+      "The Empire",
+      "Primero",
+      "FISTOR",
+      "OOA",
+      "Goin Deep"
+    ],
+    "active": true
+  },
+  {
+    "id": "team-name",
+    "currentName": "Team Name",
+    "aliases": [
+      "Team Name",
+      "Robert Paulson",
+      "SpoonFed",
+      "Covid Toe Cheese",
+      "Iron Fist"
+    ],
+    "active": true
+  },
+  {
+    "id": "big-ball-jam",
+    "currentName": "Big Ball Jam",
+    "aliases": [
+      "Big Ball Jam",
+      "Queen of the Mahomes Age",
+      "QotMA",
+      "QofMA",
+      "BSUAJ"
+    ],
+    "active": true
+  },
+  {
+    "id": "georges",
+    "currentName": "Georges",
+    "aliases": [
+      "Georges",
+      "The indeterminately sexually curious Georges",
+      "The ever Bi-Curious Georges",
+      "The Bi-Curious Georges",
+      "Bi-Curious Georges",
+      "The Bicurious Georges"
+    ],
+    "active": true
+  },
+  {
+    "id": "old-timer",
+    "currentName": "Old Timer",
+    "aliases": [
+      "Old Timer",
+      "OldTimer",
+      "OldTimer56’s Team",
+      "OldTimer56's Team"
+    ],
+    "active": true
+  },
+  {
+    "id": "logjammin",
+    "currentName": "LogJammin'",
+    "aliases": [
+      "LogJammin'",
+      "LogJammin"
+    ],
+    "active": true
+  },
+  {
+    "id": "cunningcarla",
+    "currentName": "CunningCarla",
+    "aliases": [
+      "CunningCarla"
+    ],
+    "active": true
+  },
+  {
+    "id": "notoriousfresh",
+    "currentName": "NotoriousFresh",
+    "aliases": [
+      "NotoriousFresh"
+    ],
+    "active": true
+  },
+  {
+    "id": "supaset",
+    "currentName": "SupaSet",
+    "aliases": [
+      "SupaSet"
+    ],
+    "active": false
+  },
+  {
+    "id": "greenhorn",
+    "currentName": "Greenhorn",
+    "aliases": [
+      "GreenHorn",
+      "Greenhorn"
+    ],
+    "active": false
+  },
+  {
+    "id": "balls-so-hard",
+    "currentName": "Balls So Hard",
+    "aliases": [
+      "Balls So Hard"
+    ],
+    "active": false
+  },
+  {
+    "id": "bird-dog",
+    "currentName": "Bird Dog",
+    "aliases": [
+      "Bird Dog"
+    ],
+    "active": false
+  },
+  {
+    "id": "forrest-hump",
+    "currentName": "Forrest Hump",
+    "aliases": [
+      "Forrest Hump"
+    ],
+    "active": false
+  },
+  {
+    "id": "raypt",
+    "currentName": "Raypt",
+    "aliases": [
+      "Raypt"
+    ],
+    "active": false
+  },
+  {
+    "id": "may-the-forsett-be-with-you",
+    "currentName": "May the Forsett Be with You",
+    "aliases": [
+      "May the Forsett Be with You",
+      "MtFbWY"
+    ],
+    "active": false
+  },
+  {
+    "id": "shifty-sense",
+    "currentName": "shifty sense",
+    "aliases": [
+      "shifty sense",
+      "Shifty Sense",
+      "Shifty Snese"
+    ],
+    "active": false,
+    "note": "2011 championship runner-up; ESPN source spells it 'shifty sense'."
+  }
+]

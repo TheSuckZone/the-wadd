@@ -23,7 +23,7 @@ After validation, commit and push the update, wait for the Pages run for that co
 
 FUCKIN' STATS MATE extends the existing newspaper design with 31 source-driven sections, filterable scoring races, H2H rivalry files, searchable records, franchise profiles, the Time Machine, Tale of the Tape, and shareable receipts.
 
-`data/history/archive.json` currently contains ONLY verified 2026 YTD Weeks 1–3. Older scoring, matchup, and championship records are awaiting the user's verified import. Unsupported statistics show an explanation. No missing history is scraped or extrapolated.
+`data/history/archive.json` now contains canonical v3.2 history: 2016–2025 regular-season scoring, the 2021–2025 matchup core and supplied postseason results, 2011–2025 championships, and preserved 2026 YTD Weeks 1–3. Unsupported statistics show an explanation. No missing history is scraped or extrapolated.
 
 Read [the import contract](data/history/IMPORT.md) and use [the JSON Schema](data/history/schema.json) to package historical records. Dry-run import:
 
@@ -66,3 +66,11 @@ Add sourced claims to `receipts` using `data/receipt-template.json`; future issu
 - `/rulz/`: five supplied active rules and the separate team-name-freeze proposal.
 
 To publish a new ranking, add a new edition JSON and permanent route, then prepend its metadata to `data/power-rankings/index.json`. Keep prior files unchanged. Copy supplied commentary verbatim, reference canonical team IDs, set throughWeek and previousRank from the prior editorial ranking. Calculations in `assets/sections.js` use the history engine; a new edition must have verified weekly scores and matchups. No retroactive editions are invented. `npm test` includes source fidelity, current-stat reconciliation and rule-status checks.
+
+### Canonical history and Hall of Fame
+
+Canonical v3.2.0 JSON is retained under `data/canonical/v3.2.0/`, with its SHA256 manifest. `tools/import-canonical.cjs` validates and adapts it (dry-run default, `--apply` writes the normalized archive). It reconciles all 48 regular-season summaries, retains source receipts and historical names, preserves 2026 source rows, keeps MtFbWY separate, and imports only supplied opponents. Championship outcomes can exist without a scored final; null scores remain null. Postseason roles are assigned only when proven by the championship/semifinal participants; other games retain generic postseason status.
+
+`/hall-of-fame/` reads normalized honors and definitions, features the 2021 and 2024 Triple Crowns, and renders `data/revisions.json`. Canonical v3.2 corrects 2020 league and regular-season honors to LogJammin'. Unknown points honors and legacy ties remain explicit. Malformed or identity-conflicting all-time ledger rows remain in the original source; valid mapped ledger context appears separately in franchise receipts and is never added to detailed totals.
+
+Meaningful future changes automatically trigger revision recording during local `npm test`. Prefer a descriptive entry with `node tools/revision.cjs --ensure --version UPDATE-ID --summary "Completed change description."` after final changes. CI checks the committed publication fingerprint, so forgotten revision entries block deployment. Entries remain append-only and use America/New_York timestamps. Never delete an earlier entry. Original source JSON uses Git's `-text` attribute to retain package bytes and hashes.

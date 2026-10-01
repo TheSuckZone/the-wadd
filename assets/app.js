@@ -1,5 +1,5 @@
 const script=document.currentScript,base=script.dataset.base,route=script.dataset.issue;
-for(const [label,path] of [["FUCKIN' STATS MATE",'stats/'],['POWER RANKINGS','power-rankings/'],['RULZ','rulz/']]){const link=document.createElement('a');link.href=base+path;link.textContent=label;document.querySelector('nav').insertBefore(link,document.querySelector('nav button'));}
+for(const [label,path] of [["FUCKIN' STATS MATE",'stats/'],['HALL OF FAME','hall-of-fame/'],['POWER RANKINGS','power-rankings/'],['RULZ','rulz/']]){const link=document.createElement('a');link.href=base+path;link.textContent=label;document.querySelector('nav').insertBefore(link,document.querySelector('nav button'));}
 const $=s=>document.querySelector(s),fmt=n=>(Math.abs(Number(n))<0.005?0:Number(n)).toFixed(2),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const section=(id,k,title,body)=>`<section id="${id}"><div class="section-head"><span>${k}</span><h2>${title}</h2></div>${body}</section>`;
 const tip=(text,body,cls='')=>`<button class="datum ${cls}" type="button" aria-label="${esc(text)}" data-tip="${esc(text)}">${body}<span class="tooltip">${esc(text)}</span></button>`;

@@ -1,0 +1,644 @@
+{
+  "schema_version": 1,
+  "league": "JWPL",
+  "sources": [
+    {
+      "id": "issue-001-weekly",
+      "label": "THE WADD Issue 001 \u2014 user-supplied Weeks 1\u20133 results",
+      "path": "issues/001/data.json",
+      "description": "Verified current season source. No older opponents inferred."
+    }
+  ],
+  "franchises": [
+    {
+      "id": "team-name",
+      "currentName": "Team Name",
+      "displayName": "Team Name",
+      "aliases": [
+        "Robert Paulson",
+        "SpoonFed",
+        "Covid Toe Cheese",
+        "Iron Fist"
+      ]
+    },
+    {
+      "id": "big-ball-jam",
+      "currentName": "Big Ball Jam",
+      "displayName": "Big Ball Jam",
+      "aliases": [
+        "Queen of the Mahomes Age",
+        "QotMA",
+        "BSUAJ",
+        "MtFbWY"
+      ]
+    },
+    {
+      "id": "georges",
+      "currentName": "The indeterminately sexually curious Georges",
+      "displayName": "Georges",
+      "aliases": [
+        "The ever Bi-Curious Georges",
+        "The Bi-Curious Georges",
+        "Bi-Curious Georges"
+      ]
+    },
+    {
+      "id": "notoriousfresh",
+      "currentName": "NotoriousFresh",
+      "displayName": "NotoriousFresh",
+      "aliases": []
+    },
+    {
+      "id": "22-train",
+      "currentName": "22 Train",
+      "displayName": "22 Train",
+      "aliases": [
+        "The Empire",
+        "Primero",
+        "FISTOR",
+        "OOA",
+        "Goin Deep"
+      ]
+    },
+    {
+      "id": "cunningcarla",
+      "currentName": "CunningCarla",
+      "displayName": "CunningCarla",
+      "aliases": []
+    },
+    {
+      "id": "old-timer",
+      "currentName": "Old Timer",
+      "displayName": "OldTimer56",
+      "aliases": [
+        "Old Timer",
+        "OldTimer",
+        "OldTimer56",
+        "OldTimer56's Team"
+      ]
+    },
+    {
+      "id": "logjammin",
+      "currentName": "LogJammin'",
+      "displayName": "LogJammin'",
+      "aliases": []
+    }
+  ],
+  "seasons": [
+    {
+      "year": 2026,
+      "status": "ytd",
+      "participants": [
+        "team-name",
+        "big-ball-jam",
+        "georges",
+        "notoriousfresh",
+        "22-train",
+        "cunningcarla",
+        "old-timer",
+        "logjammin"
+      ],
+      "scoringCoverage": "Weeks 1\u20133",
+      "matchupCoverage": "Weeks 1\u20133 regular season",
+      "championshipsVerified": false,
+      "standings": [
+        {
+          "franchise": "team-name",
+          "historicalName": "Team Name",
+          "pf": 733.66,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 3,
+          "losses": 0,
+          "rank": 1,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "big-ball-jam",
+          "historicalName": "Big Ball Jam",
+          "pf": 681.68,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 2,
+          "losses": 1,
+          "rank": 2,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "georges",
+          "historicalName": "The indeterminately sexually curious Georges",
+          "pf": 674.77,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 2,
+          "losses": 1,
+          "rank": 3,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "notoriousfresh",
+          "historicalName": "NotoriousFresh",
+          "pf": 649.78,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 2,
+          "losses": 1,
+          "rank": 4,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "22-train",
+          "historicalName": "22 Train",
+          "pf": 646.87,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 2,
+          "losses": 1,
+          "rank": 5,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "cunningcarla",
+          "historicalName": "CunningCarla",
+          "pf": 671.66,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 1,
+          "losses": 2,
+          "rank": 6,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "old-timer",
+          "historicalName": "OldTimer56's Team",
+          "pf": 631.91,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 0,
+          "losses": 3,
+          "rank": 7,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        },
+        {
+          "franchise": "logjammin",
+          "historicalName": "LogJammin'",
+          "pf": 592.18,
+          "scoreWeeks": [
+            1,
+            2,
+            3
+          ],
+          "wins": 0,
+          "losses": 3,
+          "rank": 8,
+          "playoff": null,
+          "lastPlace": null,
+          "source": "issue-001-weekly"
+        }
+      ]
+    }
+  ],
+  "weekly_scores": [
+    {
+      "id": "2026-w1-22-train",
+      "season": 2026,
+      "week": 1,
+      "franchise": "22-train",
+      "historicalName": "22 Train",
+      "score": 248.31,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-logjammin",
+      "season": 2026,
+      "week": 1,
+      "franchise": "logjammin",
+      "historicalName": "LogJammin'",
+      "score": 201.91,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-notoriousfresh",
+      "season": 2026,
+      "week": 1,
+      "franchise": "notoriousfresh",
+      "historicalName": "NotoriousFresh",
+      "score": 208.76,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-old-timer",
+      "season": 2026,
+      "week": 1,
+      "franchise": "old-timer",
+      "historicalName": "OldTimer56's Team",
+      "score": 207.41,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-team-name",
+      "season": 2026,
+      "week": 1,
+      "franchise": "team-name",
+      "historicalName": "Team Name",
+      "score": 245.28,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-cunningcarla",
+      "season": 2026,
+      "week": 1,
+      "franchise": "cunningcarla",
+      "historicalName": "CunningCarla",
+      "score": 240.15,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-georges",
+      "season": 2026,
+      "week": 1,
+      "franchise": "georges",
+      "historicalName": "The indeterminately sexually curious Georges",
+      "score": 216.94,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-big-ball-jam",
+      "season": 2026,
+      "week": 1,
+      "franchise": "big-ball-jam",
+      "historicalName": "Big Ball Jam",
+      "score": 203.33,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-cunningcarla",
+      "season": 2026,
+      "week": 2,
+      "franchise": "cunningcarla",
+      "historicalName": "CunningCarla",
+      "score": 233.63,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-logjammin",
+      "season": 2026,
+      "week": 2,
+      "franchise": "logjammin",
+      "historicalName": "LogJammin'",
+      "score": 184.41,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-notoriousfresh",
+      "season": 2026,
+      "week": 2,
+      "franchise": "notoriousfresh",
+      "historicalName": "NotoriousFresh",
+      "score": 240.59,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-22-train",
+      "season": 2026,
+      "week": 2,
+      "franchise": "22-train",
+      "historicalName": "22 Train",
+      "score": 190.61,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-team-name",
+      "season": 2026,
+      "week": 2,
+      "franchise": "team-name",
+      "historicalName": "Team Name",
+      "score": 206.81,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-georges",
+      "season": 2026,
+      "week": 2,
+      "franchise": "georges",
+      "historicalName": "The indeterminately sexually curious Georges",
+      "score": 202.52,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-big-ball-jam",
+      "season": 2026,
+      "week": 2,
+      "franchise": "big-ball-jam",
+      "historicalName": "Big Ball Jam",
+      "score": 242.44,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-old-timer",
+      "season": 2026,
+      "week": 2,
+      "franchise": "old-timer",
+      "historicalName": "OldTimer56's Team",
+      "score": 227.82,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-georges",
+      "season": 2026,
+      "week": 3,
+      "franchise": "georges",
+      "historicalName": "The indeterminately sexually curious Georges",
+      "score": 255.31,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-logjammin",
+      "season": 2026,
+      "week": 3,
+      "franchise": "logjammin",
+      "historicalName": "LogJammin'",
+      "score": 205.86,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-22-train",
+      "season": 2026,
+      "week": 3,
+      "franchise": "22-train",
+      "historicalName": "22 Train",
+      "score": 207.95,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-cunningcarla",
+      "season": 2026,
+      "week": 3,
+      "franchise": "cunningcarla",
+      "historicalName": "CunningCarla",
+      "score": 197.88,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-team-name",
+      "season": 2026,
+      "week": 3,
+      "franchise": "team-name",
+      "historicalName": "Team Name",
+      "score": 281.57,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-old-timer",
+      "season": 2026,
+      "week": 3,
+      "franchise": "old-timer",
+      "historicalName": "OldTimer56's Team",
+      "score": 196.68,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-big-ball-jam",
+      "season": 2026,
+      "week": 3,
+      "franchise": "big-ball-jam",
+      "historicalName": "Big Ball Jam",
+      "score": 235.91,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-notoriousfresh",
+      "season": 2026,
+      "week": 3,
+      "franchise": "notoriousfresh",
+      "historicalName": "NotoriousFresh",
+      "score": 200.43,
+      "gameType": "regular",
+      "source": "issue-001-weekly"
+    }
+  ],
+  "matchups": [
+    {
+      "id": "2026-w1-game1",
+      "season": 2026,
+      "week": 1,
+      "gameType": "regular",
+      "teamA": "22-train",
+      "teamB": "logjammin",
+      "teamAName": "22 Train",
+      "teamBName": "LogJammin'",
+      "teamAScore": 248.31,
+      "teamBScore": 201.91,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-game2",
+      "season": 2026,
+      "week": 1,
+      "gameType": "regular",
+      "teamA": "notoriousfresh",
+      "teamB": "old-timer",
+      "teamAName": "NotoriousFresh",
+      "teamBName": "OldTimer56's Team",
+      "teamAScore": 208.76,
+      "teamBScore": 207.41,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-game3",
+      "season": 2026,
+      "week": 1,
+      "gameType": "regular",
+      "teamA": "team-name",
+      "teamB": "cunningcarla",
+      "teamAName": "Team Name",
+      "teamBName": "CunningCarla",
+      "teamAScore": 245.28,
+      "teamBScore": 240.15,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w1-game4",
+      "season": 2026,
+      "week": 1,
+      "gameType": "regular",
+      "teamA": "georges",
+      "teamB": "big-ball-jam",
+      "teamAName": "The indeterminately sexually curious Georges",
+      "teamBName": "Big Ball Jam",
+      "teamAScore": 216.94,
+      "teamBScore": 203.33,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-game5",
+      "season": 2026,
+      "week": 2,
+      "gameType": "regular",
+      "teamA": "cunningcarla",
+      "teamB": "logjammin",
+      "teamAName": "CunningCarla",
+      "teamBName": "LogJammin'",
+      "teamAScore": 233.63,
+      "teamBScore": 184.41,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-game6",
+      "season": 2026,
+      "week": 2,
+      "gameType": "regular",
+      "teamA": "notoriousfresh",
+      "teamB": "22-train",
+      "teamAName": "NotoriousFresh",
+      "teamBName": "22 Train",
+      "teamAScore": 240.59,
+      "teamBScore": 190.61,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-game7",
+      "season": 2026,
+      "week": 2,
+      "gameType": "regular",
+      "teamA": "team-name",
+      "teamB": "georges",
+      "teamAName": "Team Name",
+      "teamBName": "The indeterminately sexually curious Georges",
+      "teamAScore": 206.81,
+      "teamBScore": 202.52,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w2-game8",
+      "season": 2026,
+      "week": 2,
+      "gameType": "regular",
+      "teamA": "big-ball-jam",
+      "teamB": "old-timer",
+      "teamAName": "Big Ball Jam",
+      "teamBName": "OldTimer56's Team",
+      "teamAScore": 242.44,
+      "teamBScore": 227.82,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-game9",
+      "season": 2026,
+      "week": 3,
+      "gameType": "regular",
+      "teamA": "georges",
+      "teamB": "logjammin",
+      "teamAName": "The indeterminately sexually curious Georges",
+      "teamBName": "LogJammin'",
+      "teamAScore": 255.31,
+      "teamBScore": 205.86,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-game10",
+      "season": 2026,
+      "week": 3,
+      "gameType": "regular",
+      "teamA": "22-train",
+      "teamB": "cunningcarla",
+      "teamAName": "22 Train",
+      "teamBName": "CunningCarla",
+      "teamAScore": 207.95,
+      "teamBScore": 197.88,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-game11",
+      "season": 2026,
+      "week": 3,
+      "gameType": "regular",
+      "teamA": "team-name",
+      "teamB": "old-timer",
+      "teamAName": "Team Name",
+      "teamBName": "OldTimer56's Team",
+      "teamAScore": 281.57,
+      "teamBScore": 196.68,
+      "source": "issue-001-weekly"
+    },
+    {
+      "id": "2026-w3-game12",
+      "season": 2026,
+      "week": 3,
+      "gameType": "regular",
+      "teamA": "big-ball-jam",
+      "teamB": "notoriousfresh",
+      "teamAName": "Big Ball Jam",
+      "teamBName": "NotoriousFresh",
+      "teamAScore": 235.91,
+      "teamBScore": 200.43,
+      "source": "issue-001-weekly"
+    }
+  ],
+  "championships": [],
+  "gaps": [
+    "2016\u20132025 scoring history awaits verified import.",
+    "2021\u20132025 detailed matchups await verified import.",
+    "Championships, playoff finishes and final last-place results have not been supplied.",
+    "2026 is YTD: Weeks 1\u20133 only."
+  ],
+  "discrepancies": []
+}

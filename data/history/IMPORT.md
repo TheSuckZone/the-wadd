@@ -46,3 +46,9 @@ Run desktop/mobile QA before committing. Publish to the SAME `TheSuckZone/the-wa
 PPG headlines: 3 recorded weeks. Win-percentage champion: 10 known games. Rivalry ownership, even-rivalry and curse labels: 3 meetings. Volatility: 6 recorded weeks. Luck awards: 6 comparable actual regular-season games with complete weekly scoring. Stretches require 3 or 5 contiguous weeks within one season. Final finishes need explicit completed-season records. 2026 is always YTD, with no invented final finish.
 
 Synthetic scenarios exist only inside `tests/history.cjs` and are never included in the production archive. Partial imported history can prove an observed record, not an absolute complete-history league record. Every receipt discloses that limit.
+
+## Canonical database adapter
+
+Canonical v3.2.0 is preserved at data/canonical/v3.2.0/database.json. Use tools/import-canonical.cjs for this source format rather than merging the raw canonical shape into the generic bundle. It checks source identities, score/matchup consistency and all supplied season summaries before writing. The original Issue 001 fixture is kept only for preservation/regression tests. Generic postseason is allowed when its bracket role is unproven; it is never counted as an elimination game. Weekly scoring remains regular-season only; scored postseason observations are retained in matchup receipts.
+
+Explicit unknowns (2010 major honors, 2011 regular-season tie, 2020 points champion) remain unknown. Do not infer honors from rounded weekly scoring. Canonical IDs and aliases take precedence over the former MtFbWY alias mistake. All-time ledger identity conflicts and malformed duplicate rows stay flagged; do not combine them with detailed records.

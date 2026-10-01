@@ -145,7 +145,8 @@
               "championship",
               "third_place",
               "consolation",
-              "unknown"
+              "unknown",
+              "postseason"
             ]
           }
         }
@@ -211,7 +212,8 @@
               "semifinal",
               "championship",
               "third_place",
-              "consolation"
+              "consolation",
+              "postseason"
             ]
           },
           "inferredFromScores": {

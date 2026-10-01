@@ -1,0 +1,52 @@
+{
+  "version": "3.2.0",
+  "supersedes_v1": true,
+  "changes": [
+    {
+      "type": "identity",
+      "detail": "Removed MtFbWY / May the Forsett Be with You from Big Ball Jam aliases and restored it as its own legacy franchise.",
+      "reason": "All-time ledger lists May the Forsett Be with You separately with 28 games over 2 seasons; Big Ball Jam has 120 games over 9 seasons, matching 2018-2026."
+    },
+    {
+      "type": "2021 reconstruction",
+      "detail": "Added complete Weeks 1-14 matchup schedule and exact decimal weekly scores.",
+      "reason": "Weeks 2-14 came directly from 2021 ESPN screenshots. Week 1 was reconstructed from repeated schedule structure plus official PF and validated exactly against official W-L and PA."
+    },
+    {
+      "type": "2022 reconstruction",
+      "detail": "Added complete Weeks 1-14 matchup schedule and exact decimal weekly scores.",
+      "reason": "Directly transcribed from 2022 ESPN screenshots and reconciled exactly to official standings."
+    },
+    {
+      "type": "existing workbook corrections",
+      "detail": "Retained prior transparent corrections: 2024 W8 22 Train 23.53→184.30; 2024 W14 22 Train 203.41→229.07; 2024 W14 Old Timer 203.62→253.47."
+    },
+    {
+      "type": "historical honors",
+      "detail": "Added user-confirmed 2011-2020 championship/runner-up history and modern 2021-2025 honors."
+    },
+    {
+      "type": "definitions",
+      "detail": "Added Beginning Era, Modern Era, Future Era, and Triple Crown definitions."
+    },
+    {
+      "type": "2024 postseason",
+      "detail": "Confirmed all five 2024 postseason games from user-supplied ESPN screenshots."
+    },
+    {
+      "type": "legacy ranking interpretation",
+      "detail": "Ignore misleading ESPN RK/order; use actual W-L records. Ignore PDF 2023 section."
+    },
+    {
+      "type": "historical championship correction",
+      "detail": "Corrected 2020 league champion to LogJammin' and runner-up to CunningCarla. Previous v3 mapping to BSUAJ/FISTOR was a chronology parsing error.",
+      "reason": "Explicit user clarification on 2026-10-01."
+    },
+    {
+      "type": "historical regular-season correction",
+      "detail": "Corrected 2020 regular-season champion to LogJammin'.",
+      "reason": "Explicit user clarification on 2026-10-01."
+    }
+  ],
+  "supersedes_v2": true
+}

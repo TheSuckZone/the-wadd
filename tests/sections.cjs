@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),H=require('../assets/history-engine');
-const raw=require('../data/history/archive.json'),index=require('../data/power-rankings/index.json'),rules=require('../data/rules.json');
+const raw=require('./fixtures/issue-001-history.json'),index=require('../data/power-rankings/index.json'),rules=require('../data/rules.json');
 assert.equal(index.length,1);const d=require('../data/power-rankings/'+index[0].id+'.json');assert.equal(d.teams.length,8);assert.deepEqual(d.teams.map(t=>t.rank),[1,2,3,4,5,6,7,8]);assert.equal(new Set(d.teams.map(t=>t.teamId)).size,8);
 const q=H.createEngine(raw).query('2026');for(const t of d.teams){const m=q.career.find(m=>m.franchise===t.teamId);assert.equal(t.suppliedStats.record,`${m.wins}-${m.losses}`);assert.equal(t.suppliedStats.points,m.points.toFixed(2));assert.equal(t.suppliedStats.ppg,m.ppg.toFixed(2));assert.equal(t.suppliedStats.weeklyScore,m.scoreEvidence.find(s=>s.week===3).score.toFixed(2));assert.equal(t.previousRank,null);assert.ok(t.editorialText.length>300);assert.ok(t.verdict.length>40);}
 const source=fs.readFileSync('data/power-rankings/SOURCE.txt','utf8').replace(/\r\n/g,'\n');for(const t of d.teams){assert.ok(source.includes(t.editorialHeadline));assert.ok(source.includes(t.editorialText));assert.ok(source.includes(t.verdict));}

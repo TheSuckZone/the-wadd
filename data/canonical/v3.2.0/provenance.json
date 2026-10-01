@@ -1,0 +1,38 @@
+{
+  "primarySources": [
+    {
+      "source": "FF.zip / 2021.docx",
+      "use": "2021 ESPN weekly matchup screenshots, postseason, standings"
+    },
+    {
+      "source": "FF.zip / 2022.docx",
+      "use": "2022 ESPN weekly matchup screenshots, postseason, standings"
+    },
+    {
+      "source": "JWPL_MASTER_SHEET_UPDATED.xlsx",
+      "use": "2016-2026 scoring archive, 2023-2026 matchup database, all-time ledger, points-against history"
+    },
+    {
+      "source": "Pasted markdown(4).md",
+      "use": "2016-2020 scoring cross-check"
+    },
+    {
+      "source": "Jon Wads Pay League History - ESPN Fantasy Football.pdf",
+      "use": "legacy W-L history; W-L determines placement; displayed RK/order ignored; 2023 ignored"
+    },
+    {
+      "source": "User-supplied postseason screenshots 2023-2025",
+      "use": "postseason verification"
+    },
+    {
+      "source": "User confirmations 2026-10-01",
+      "use": "historic title pairs, modern season honors, era definitions, Triple Crown definition"
+    }
+  ],
+  "derivations": [
+    {
+      "item": "2021 Week 1",
+      "method": "Week 1 pairing = repeated Week 8 pairing pattern; scores = official season PF minus exact Weeks 2-14 scores; validation = exact official W-L and PA."
+    }
+  ]
+}

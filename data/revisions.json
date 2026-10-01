@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "timeZone": "America/New_York",
+  "years": [
+    {
+      "year": 2026,
+      "entries": [
+        {
+          "timestamp": "2026-10-01T16:25:15-04:00",
+          "version": "historical-db-v3.2.0",
+          "summary": "Imported canonical v3.2 historical database; added Hall of Fame, verified honors, overlapping eras, and persistent revisions.",
+          "contentHash": "49086f87a5c9257fabad2f1255b006f8969f0afe10d4ddb82d41702496741c15"
+        },
+        {
+          "timestamp": "2026-10-01T16:25:53-04:00",
+          "version": "historical-db-v3.2.0-validation",
+          "summary": "Validated imported score and matchup reconciliation; preserved v3.2 honors corrections and quarantined malformed all-time ledger rows.",
+          "contentHash": "c9e2e72d9e0d7a74c81b106f0ecc536bdb549bd29e0ef023c08bd908ab231eaf"
+        },
+        {
+          "timestamp": "2026-10-01T16:35:49-04:00",
+          "version": "historical-db-v3.2.0-final",
+          "summary": "Completed historical import validation, preserved unknown honors and source conflicts, and verified Hall of Fame and revision recording on desktop and mobile.",
+          "contentHash": "4469dbd62b1f79593b75e054d03fe05e67a3dcd853238723593d5427ceb78d36"
+        },
+        {
+          "timestamp": "2026-10-01T16:36:32-04:00",
+          "version": "historical-db-v3.2.0-production",
+          "summary": "Verified the production archive exactly matches the validated canonical adaptation, with all 2026 source values preserved.",
+          "contentHash": "5e2d7694cc38127cda1fb636bbbb7c08386af70e14fdf86cc061f65634d5ce07"
+        }
+      ]
+    }
+  ]
+}

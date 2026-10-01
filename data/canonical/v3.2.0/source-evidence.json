@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "JWPL_MASTER_SHEET_UPDATED.xlsx",
+      "role": "2016-2026 scoring; 2023-2026 detailed matchups; ledger/context"
+    },
+    {
+      "name": "FF.zip / 2021.docx",
+      "role": "2021 ESPN weekly matchups, standings, postseason"
+    },
+    {
+      "name": "FF.zip / 2022.docx",
+      "role": "2022 ESPN weekly matchups, standings, postseason"
+    },
+    {
+      "name": "Jon Wads Pay League History - ESPN Fantasy Football.pdf",
+      "role": "legacy W-L history; ignore displayed RK/order; use W-L only; ignore 2023 section"
+    },
+    {
+      "name": "User-supplied 2023/2024/2025 postseason screenshots",
+      "role": "postseason verification"
+    },
+    {
+      "name": "User confirmations 2026-10-01",
+      "role": "historical champions/runner-ups, modern honors, eras, Triple Crown definition"
+    }
+  ]
+}

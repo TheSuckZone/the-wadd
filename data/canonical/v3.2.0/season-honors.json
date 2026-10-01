@@ -1,0 +1,170 @@
+[
+  {
+    "season": 2010,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": null,
+    "runnerUpId": null,
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "unverified-history",
+    "notes": [
+      "League history lost; no canonical winner assigned."
+    ]
+  },
+  {
+    "season": 2011,
+    "regularSeasonChampionId": null,
+    "regularSeasonChampionStatus": "unresolved-tie",
+    "leagueChampionId": "22-train",
+    "runnerUpId": "shifty-sense",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial",
+    "notes": [
+      "ESPN shows shifty sense and Rack Ball both 12-2 in separate divisions; no tiebreaker source."
+    ]
+  },
+  {
+    "season": 2012,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "raypt",
+    "runnerUpId": "22-train",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2013,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "forrest-hump",
+    "runnerUpId": "22-train",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2014,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "forrest-hump",
+    "runnerUpId": "22-train",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2015,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "old-timer",
+    "runnerUpId": "cunningcarla",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2016,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "old-timer",
+    "runnerUpId": "22-train",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2017,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "cunningcarla",
+    "runnerUpId": "team-name",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2018,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": "logjammin",
+    "runnerUpId": "big-ball-jam",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial"
+  },
+  {
+    "season": 2019,
+    "regularSeasonChampionId": "big-ball-jam",
+    "leagueChampionId": "big-ball-jam",
+    "runnerUpId": "22-train",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial",
+    "notes": [
+      "Regular-season champion from ESPN W-L history; points leader unverified."
+    ]
+  },
+  {
+    "season": 2020,
+    "regularSeasonChampionId": "logjammin",
+    "leagueChampionId": "logjammin",
+    "runnerUpId": "cunningcarla",
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "partial",
+    "notes": [
+      "User-confirmed: 2020 regular-season champion was LogJammin'.",
+      "User-confirmed: 2020 league champion was LogJammin'; CunningCarla was runner-up.",
+      "2020 points leader remains unknown, so Triple Crown status remains unconfirmed."
+    ]
+  },
+  {
+    "season": 2021,
+    "regularSeasonChampionId": "big-ball-jam",
+    "leagueChampionId": "big-ball-jam",
+    "runnerUpId": "notoriousfresh",
+    "pointsLeaderId": "big-ball-jam",
+    "tripleCrown": true,
+    "status": "verified"
+  },
+  {
+    "season": 2022,
+    "regularSeasonChampionId": "logjammin",
+    "leagueChampionId": "old-timer",
+    "runnerUpId": "team-name",
+    "pointsLeaderId": "logjammin",
+    "tripleCrown": false,
+    "status": "verified"
+  },
+  {
+    "season": 2023,
+    "regularSeasonChampionId": "old-timer",
+    "leagueChampionId": "big-ball-jam",
+    "runnerUpId": "georges",
+    "pointsLeaderId": "old-timer",
+    "tripleCrown": false,
+    "status": "verified"
+  },
+  {
+    "season": 2024,
+    "regularSeasonChampionId": "22-train",
+    "leagueChampionId": "22-train",
+    "runnerUpId": "cunningcarla",
+    "pointsLeaderId": "22-train",
+    "tripleCrown": true,
+    "status": "verified"
+  },
+  {
+    "season": 2025,
+    "regularSeasonChampionId": "team-name",
+    "leagueChampionId": "big-ball-jam",
+    "runnerUpId": "notoriousfresh",
+    "pointsLeaderId": "22-train",
+    "tripleCrown": false,
+    "status": "verified"
+  },
+  {
+    "season": 2026,
+    "regularSeasonChampionId": null,
+    "leagueChampionId": null,
+    "runnerUpId": null,
+    "pointsLeaderId": null,
+    "tripleCrown": null,
+    "status": "YTD through Week 3"
+  }
+]

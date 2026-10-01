@@ -1,0 +1,27 @@
+{
+  "eras": [
+    {
+      "name": "Beginning Era",
+      "startSeason": 2010,
+      "endSeason": 2015
+    },
+    {
+      "name": "Modern Era",
+      "startSeason": 2016,
+      "endSeason": null,
+      "endLabel": "today"
+    },
+    {
+      "name": "Future Era",
+      "startSeason": 2020,
+      "endSeason": null,
+      "endLabel": "today",
+      "note": "Intentional subset of the Modern Era."
+    }
+  ],
+  "awards": {
+    "Triple Crown": {
+      "definition": "Same franchise in the same season: regular-season champion + league champion + points leader."
+    }
+  }
+}
